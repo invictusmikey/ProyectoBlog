@@ -3,7 +3,7 @@ import { img2 } from "../assets/img2.PNG";
 import { img3 } from "../assets/img3.PNG";
 import { img4 } from "../assets/img4.PNG";
 
-const news = [
+export const news = [
 
     {
         id:1,

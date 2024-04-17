@@ -1,9 +1,7 @@
 import React from 'react'
 
-export const Section = () => {
+export const Section = ({children}) => {
   return (
-    <div className='w-full bg-green-900 '>
-      <h1>Primera seccion</h1>
-    </div>
+    <div className='w-full h-96 bg-green-900 flex flex-col justify-center items-center '>{children} </div>
   )
 }
